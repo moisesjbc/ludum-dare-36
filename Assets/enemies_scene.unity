@@ -200,7 +200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ENEMY_RESPAWN_TIME: .5
   DISTANCE_TO_PLANET: 5
-  enemyPrefab: {fileID: 126800, guid: c48baff600da4f5489f3eabc648ead95, type: 2}
+  enemyPrefab: {fileID: 154614, guid: af81c556d0fc80f4a99d85c7579149d8, type: 2}
 --- !u!4 &751549825
 Transform:
   m_ObjectHideFlags: 0
@@ -212,7 +212,53 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
+--- !u!1001 &1243995946
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 409396, guid: af81c556d0fc80f4a99d85c7579149d8, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2.76999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 409396, guid: af81c556d0fc80f4a99d85c7579149d8, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 4.84000015
+      objectReference: {fileID: 0}
+    - target: {fileID: 409396, guid: af81c556d0fc80f4a99d85c7579149d8, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 409396, guid: af81c556d0fc80f4a99d85c7579149d8, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 409396, guid: af81c556d0fc80f4a99d85c7579149d8, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 409396, guid: af81c556d0fc80f4a99d85c7579149d8, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 409396, guid: af81c556d0fc80f4a99d85c7579149d8, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 409396, guid: af81c556d0fc80f4a99d85c7579149d8, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11469270, guid: af81c556d0fc80f4a99d85c7579149d8, type: 2}
+      propertyPath: planet
+      value: 
+      objectReference: {fileID: 1562140479}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: af81c556d0fc80f4a99d85c7579149d8, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1562140479
 GameObject:
   m_ObjectHideFlags: 0
@@ -288,7 +334,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!54 &1562140484
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -304,52 +350,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!1001 &1759581458
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 457810, guid: c48baff600da4f5489f3eabc648ead95, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 5.19999981
-      objectReference: {fileID: 0}
-    - target: {fileID: 457810, guid: c48baff600da4f5489f3eabc648ead95, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 4.48999977
-      objectReference: {fileID: 0}
-    - target: {fileID: 457810, guid: c48baff600da4f5489f3eabc648ead95, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 457810, guid: c48baff600da4f5489f3eabc648ead95, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 457810, guid: c48baff600da4f5489f3eabc648ead95, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 457810, guid: c48baff600da4f5489f3eabc648ead95, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 457810, guid: c48baff600da4f5489f3eabc648ead95, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 457810, guid: c48baff600da4f5489f3eabc648ead95, type: 2}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11409156, guid: c48baff600da4f5489f3eabc648ead95, type: 2}
-      propertyPath: planet
-      value: 
-      objectReference: {fileID: 1562140479}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: c48baff600da4f5489f3eabc648ead95, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1868554131
 GameObject:
   m_ObjectHideFlags: 0
