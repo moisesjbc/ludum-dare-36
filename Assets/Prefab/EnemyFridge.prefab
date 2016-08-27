@@ -76,6 +76,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 461938}
   - 95: {fileID: 9596238}
+  - 114: {fileID: 11451180}
   m_Layer: 0
   m_Name: FREZZER
   m_TagString: Untagged
@@ -286,6 +287,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   planet: {fileID: 0}
   speed: 1
+--- !u!114 &11451180
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 173702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4c7fdeb07d3d074ebe33c2753686b52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 50
 --- !u!136 &13658250
 CapsuleCollider:
   m_ObjectHideFlags: 1
