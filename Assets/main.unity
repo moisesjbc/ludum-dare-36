@@ -668,7 +668,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1264275827}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 4, z: 0}
+  m_LocalPosition: {x: 0, y: 2.93000007, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 1832529348}
@@ -787,7 +787,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ENEMY_RESPAWN_TIME: .5
-  DISTANCE_TO_PLANET: 5
+  DISTANCE_TO_PLANET: 15
   enemyPrefab1: {fileID: 154614, guid: a447e6e362cb70344b4bfc4d7769e82e, type: 2}
   enemyPrefab2: {fileID: 154614, guid: af81c556d0fc80f4a99d85c7579149d8, type: 2}
   enemyPrefab3: {fileID: 154614, guid: 619ee9ec8499bf14896ea2eb57eebbed, type: 2}
@@ -814,6 +814,7 @@ GameObject:
   - 33: {fileID: 1759488215}
   - 135: {fileID: 1759488214}
   - 23: {fileID: 1759488213}
+  - 114: {fileID: 1759488217}
   m_Layer: 0
   m_Name: Planet
   m_TagString: Untagged
@@ -880,6 +881,18 @@ Transform:
   - {fileID: 1094738578}
   m_Father: {fileID: 0}
   m_RootOrder: 7
+--- !u!114 &1759488217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1759488212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 295a5537719f58643934f4015dd6a7e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 50
 --- !u!1001 &1781047899
 Prefab:
   m_ObjectHideFlags: 0
