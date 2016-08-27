@@ -30,7 +30,8 @@ public class SpaceshipMovement : MonoBehaviour {
 
 		if (Input.GetKey (KeyCode.Space)) {
 
-			GameObject bullet = (GameObject)Instantiate (projectileShooter,transform.position,Quaternion.identity);
+			Debug.Log (Quaternion.LookRotation (transform.up));
+			GameObject bullet = (GameObject)Instantiate (projectileShooter,transform.position,Quaternion.LookRotation(transform.up, Vector3.back));
 
 
 		}
