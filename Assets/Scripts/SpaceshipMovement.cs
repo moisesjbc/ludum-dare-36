@@ -2,7 +2,8 @@
 using System.Collections;
 
 public class SpaceshipMovement : MonoBehaviour {
-
+	
+	public GameObject projectileShooter;
 	public GameObject planet;
 	public float deltaMovement = 1.0f;
 	public float angle = 0.0f;
@@ -23,6 +24,13 @@ public class SpaceshipMovement : MonoBehaviour {
 			angle += deltaMovement * Time.deltaTime;
 		} else if (Input.GetKey (KeyCode.RightArrow)) {
 			angle -= deltaMovement * Time.deltaTime;
+		}
+
+		if (Input.GetKey (KeyCode.Space)) {
+
+			GameObject bullet = (GameObject)Instantiate (projectileShooter,transform.position,Quaternion.identity);
+
+
 		}
 	}
 }
