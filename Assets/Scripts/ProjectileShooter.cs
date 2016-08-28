@@ -4,6 +4,7 @@ using System.Collections;
 public class ProjectileShooter : MonoBehaviour {
 	
 	private Vector3 startPos;
+	public float speed = 1.0f;
 
 	// Use this for initialization
 	void Start () {
@@ -13,7 +14,7 @@ public class ProjectileShooter : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		float distance = Vector3.Distance(startPos,transform.position);
-		transform.position += Vector3.Normalize (transform.localPosition);
+		transform.position += Vector3.Normalize (transform.forward) * speed * Time.deltaTime;
 
 		if(distance >=8)
 		{
@@ -24,6 +25,7 @@ public class ProjectileShooter : MonoBehaviour {
 	void OnTriggerEnter(Collider other) {
 		if (other.gameObject.tag == "Enemy") {
 			Destroy (other.gameObject);
+			Destroy (gameObject);
 		}
 	}
 }

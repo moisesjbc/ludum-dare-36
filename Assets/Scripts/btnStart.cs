@@ -6,11 +6,11 @@ public class btnStart : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+		//SceneManager.LoadScene ("dialogs");
 	}
 
 	public void StartGame()
 	{
-		SceneManager.LoadScene ("main");
+		SceneManager.LoadScene ("dialogs");
 	}
 }

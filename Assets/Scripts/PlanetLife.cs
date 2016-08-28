@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 
 public class PlanetLife : MonoBehaviour {
@@ -30,7 +29,7 @@ public class PlanetLife : MonoBehaviour {
 		} else {
 			
 			//Application.LoadLevel ("");
-			SceneManager.LoadScene ("loserMenu");
+			Application.LoadLevel (2);
 			Debug.Log ("Aniquilado");
 		}
 	}

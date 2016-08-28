@@ -1,14 +1,24 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class EnemyCreation : MonoBehaviour {
 	public float ENEMY_RESPAWN_TIME = 1.0f;
 	public float DISTANCE_TO_PLANET = 5.0f;
 	float timeUntilNextEnemy;
-	public GameObject enemyPrefab;
+
+	List<GameObject> enemyPrefabs = new List<GameObject>();
+	public GameObject enemyPrefab1;
+	public GameObject enemyPrefab2;
+	public GameObject enemyPrefab3;
+	public GameObject enemyPrefab4;
 
 	// Use this for initialization
 	void Start () {
+		enemyPrefabs.Add (enemyPrefab1);
+		enemyPrefabs.Add (enemyPrefab2);
+		enemyPrefabs.Add (enemyPrefab3);
+		enemyPrefabs.Add (enemyPrefab4);
 		timeUntilNextEnemy = ENEMY_RESPAWN_TIME;
 	}
 
@@ -19,7 +29,8 @@ public class EnemyCreation : MonoBehaviour {
 			DISTANCE_TO_PLANET * Mathf.Sin(angle),
 			0.0f
 			);
-		GameObject newEnemy = (GameObject) Instantiate(enemyPrefab, initialPosition, Quaternion.identity);
+		int prefabIndex = UnityEngine.Random.Range(0,4);
+		GameObject newEnemy = (GameObject) Instantiate(enemyPrefabs[prefabIndex], initialPosition, Quaternion.identity);
 	}
 	
 	// Update is called once per frame
