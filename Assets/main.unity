@@ -1161,6 +1161,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   towerBullet: {fileID: 118256, guid: e60bde938488eb14099b8e907619ec14, type: 2}
   bulletSpawnPoint: {fileID: 1081908178}
+  minShootdownCooldown: 1
+  maxShootdownCooldown: 2
 --- !u!1001 &1356971949
 Prefab:
   m_ObjectHideFlags: 0
@@ -1224,6 +1226,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   towerBullet: {fileID: 112330, guid: e439040cc1ac8ab48b001459f39f0891, type: 2}
   bulletSpawnPoint: {fileID: 1767829958}
+  minShootdownCooldown: 1
+  maxShootdownCooldown: 2
 --- !u!1 &1435165754
 GameObject:
   m_ObjectHideFlags: 0
@@ -1268,6 +1272,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   towerBullet: {fileID: 132230, guid: e0f990384f6d9eb4eba17922f13b4409, type: 2}
   bulletSpawnPoint: {fileID: 1286884507}
+  minShootdownCooldown: 1
+  maxShootdownCooldown: 2
 --- !u!1 &1665715119 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100008, guid: 6a65588eb5cbcc340a12632ca58cc7a2, type: 3}
@@ -1285,6 +1291,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   towerBullet: {fileID: 122418, guid: f01dcbb99e209f14ab908f3c4dfe3c01, type: 2}
   bulletSpawnPoint: {fileID: 1838412809}
+  minShootdownCooldown: 1
+  maxShootdownCooldown: 2
 --- !u!1 &1702545469
 GameObject:
   m_ObjectHideFlags: 0
