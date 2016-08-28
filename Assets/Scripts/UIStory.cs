@@ -18,7 +18,7 @@ public class UIStory : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Input.anyKeyDown) {
-			if (dialogIndex < dialogSprites.Length){
+			if (dialogIndex < dialogSprites.Length - 1){
 			dialogIndex++;
 			dialog.sprite = dialogSprites [dialogIndex];
 			} else {
