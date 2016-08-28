@@ -359,7 +359,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
 --- !u!1 &388824139
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,7 +714,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1081908178}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -.707106829, y: 0, z: 0, w: .707106829}
   m_LocalPosition: {x: 0, y: 1.42499995, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1034,6 +1034,33 @@ MonoBehaviour:
   deltaMovement: 200
   angle: 0
   targetPosition: {x: 0, y: 0, z: 0}
+--- !u!1 &1286884507
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1286884508}
+  m_Layer: 0
+  m_Name: BulletRespawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1286884508
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1286884507}
+  m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106829}
+  m_LocalPosition: {x: 1.41400003, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1841337309}
+  m_RootOrder: 6
 --- !u!1 &1323309282
 GameObject:
   m_ObjectHideFlags: 0
@@ -1180,6 +1207,23 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a447e6e362cb70344b4bfc4d7769e82e, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1364235307 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: d7c1b77e12f0d3b46ab40c418defffa0, type: 3}
+  m_PrefabInternal: {fileID: 514478371}
+--- !u!114 &1364235308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1364235307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7dea555b04aeeb43a90192c6e4fce48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerBullet: {fileID: 118256, guid: e60bde938488eb14099b8e907619ec14, type: 2}
+  bulletSpawnPoint: {fileID: 1767829958}
 --- !u!1 &1435165754
 GameObject:
   m_ObjectHideFlags: 0
@@ -1207,6 +1251,40 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1832529348}
   m_RootOrder: 1
+--- !u!1 &1647357838 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: dbb8acb0cb5f4214fb71e9ede990e700, type: 3}
+  m_PrefabInternal: {fileID: 1841337308}
+--- !u!114 &1647357839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1647357838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7dea555b04aeeb43a90192c6e4fce48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerBullet: {fileID: 118256, guid: e60bde938488eb14099b8e907619ec14, type: 2}
+  bulletSpawnPoint: {fileID: 1286884507}
+--- !u!1 &1665715119 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100008, guid: 6a65588eb5cbcc340a12632ca58cc7a2, type: 3}
+  m_PrefabInternal: {fileID: 2062154307}
+--- !u!114 &1665715120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1665715119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7dea555b04aeeb43a90192c6e4fce48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerBullet: {fileID: 118256, guid: e60bde938488eb14099b8e907619ec14, type: 2}
+  bulletSpawnPoint: {fileID: 1838412809}
 --- !u!1 &1702545469
 GameObject:
   m_ObjectHideFlags: 0
@@ -1357,6 +1435,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBar: {fileID: 1323309284}
+--- !u!1 &1767829958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1767829959}
+  m_Layer: 0
+  m_Name: BulletRespawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1767829959
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1767829958}
+  m_LocalRotation: {x: 0, y: -.707106829, z: 0, w: .707106829}
+  m_LocalPosition: {x: -1.51699996, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 514478372}
+  m_RootOrder: 5
 --- !u!1001 &1781047899
 Prefab:
   m_ObjectHideFlags: 0
@@ -1416,6 +1521,33 @@ Transform:
   - {fileID: 388824140}
   m_Father: {fileID: 1264275831}
   m_RootOrder: 0
+--- !u!1 &1838412809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1838412810}
+  m_Layer: 0
+  m_Name: BulletRespawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1838412810
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1838412809}
+  m_LocalRotation: {x: .707106829, y: 0, z: 0, w: .707106829}
+  m_LocalPosition: {x: 0, y: -1.171, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2062154308}
+  m_RootOrder: 5
 --- !u!1001 &1841337308
 Prefab:
   m_ObjectHideFlags: 0
