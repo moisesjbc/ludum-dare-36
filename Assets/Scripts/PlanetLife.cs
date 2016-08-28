@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PlanetLife : MonoBehaviour {
 
-	int health = 3;
+	int health = 20;
 	public Slider healthBar;
 
 	// Use this for initialization
