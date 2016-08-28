@@ -5,11 +5,13 @@ public class TowerShooter : MonoBehaviour {
 
 	public GameObject towerBullet;
 	public GameObject bulletSpawnPoint;
-	float shootCooldown = 0.25f;
+	public float minShootdownCooldown = 1.0f;
+	public float maxShootdownCooldown = 2.0f;
+	float shootCooldown;
 
 	// Use this for initialization
 	void Start () {
-	
+		shootCooldown = Random.Range(minShootdownCooldown, maxShootdownCooldown);
 	}
 	
 	// Update is called once per frame
@@ -19,7 +21,7 @@ public class TowerShooter : MonoBehaviour {
 		if (shootCooldown < 0.0f) {
 			GameObject bullet = (GameObject)Instantiate (towerBullet, bulletSpawnPoint.transform.position, bulletSpawnPoint.transform.rotation /*Quaternion.LookRotation (transform.up, Vector3.back)*/);
 			Debug.Log ("bullet.transform.position: " + bullet.transform.position);
-			shootCooldown = 0.25f;
+			shootCooldown = Random.Range(minShootdownCooldown, maxShootdownCooldown);
 		}
 	}
 }
