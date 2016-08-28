@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class PlanetLife : MonoBehaviour {
 
@@ -9,7 +11,7 @@ public class PlanetLife : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+
 	}
 		
 	
@@ -24,9 +26,12 @@ public class PlanetLife : MonoBehaviour {
 		if (health >= 0) {
 			healthBar.value = health;	
 			Debug.Log ("LIFE: " + health);
+
+		} else {
+			
+			//Application.LoadLevel ("");
+			SceneManager.LoadScene ("loserMenu");
+			Debug.Log ("Aniquilado");
 		}
-		else
-		Debug.Log ("Aniquilado");
-		
 	}
 }

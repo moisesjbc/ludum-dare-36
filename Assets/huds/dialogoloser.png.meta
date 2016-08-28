@@ -1,0 +1,454 @@
+fileFormatVersion: 2
+guid: 78c5748cbad27d5439d7387e9914a5fa
+timeCreated: 1472391682
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: dialogoloser_0
+    21300002: dialogoloser_1
+    21300004: dialogoloser_2
+    21300006: dialogoloser_3
+    21300008: dialogoloser_4
+    21300010: dialogoloser_5
+    21300012: dialogoloser_6
+    21300014: dialogoloser_7
+    21300016: dialogoloser_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: dialogoloser_0
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1837
+        width: 482
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -241, y: 68}
+        - {x: -241, y: -68}
+        - {x: 241, y: -68}
+        - {x: 241, y: 68}
+    - name: dialogoloser_1
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1737
+        width: 1087
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 543.5, y: 59}
+        - {x: -321.5, y: 59}
+        - {x: -321.5, y: 81}
+        - {x: -327.5, y: 88}
+        - {x: -341.5, y: 98}
+        - {x: -349.5, y: 103}
+        - {x: -352.5, y: 106}
+        - {x: -363.5, y: 113}
+        - {x: -370.5, y: 114}
+        - {x: -373.5, y: 114}
+        - {x: -373.5, y: 117}
+        - {x: -379.5, y: 124}
+        - {x: -387.5, y: 129}
+        - {x: -392.5, y: 130}
+        - {x: -403.5, y: 131}
+        - {x: -460.5, y: 131}
+        - {x: -469.5, y: 130}
+        - {x: -472.5, y: 129}
+        - {x: -478.5, y: 124}
+        - {x: -490.5, y: 113}
+        - {x: -491.5, y: 110}
+        - {x: -491.5, y: 107}
+        - {x: -498.5, y: 107}
+        - {x: -522.5, y: 104}
+        - {x: -528.5, y: 103}
+        - {x: -533.5, y: 101}
+        - {x: -536.5, y: 97}
+        - {x: -543.5, y: 89}
+        - {x: -543.5, y: 56}
+        - {x: -541.5, y: 53}
+        - {x: -538.5, y: 52}
+        - {x: -528.5, y: 48}
+        - {x: -521.5, y: 45}
+        - {x: -501.5, y: 37}
+        - {x: -490.5, y: 32}
+        - {x: -490.5, y: 3}
+        - {x: -491.5, y: 2}
+        - {x: -492.5, y: -3}
+        - {x: -494.5, y: -12}
+        - {x: -496.5, y: -20}
+        - {x: -499.5, y: -34}
+        - {x: -499.5, y: -43}
+        - {x: -445.5, y: -97}
+        - {x: -412.5, y: -97}
+        - {x: -403.5, y: -88}
+        - {x: -394.5, y: -78}
+        - {x: -388.5, y: -81}
+        - {x: 354.5, y: -81}
+        - {x: 369.5, y: -96}
+        - {x: 369.5, y: -97}
+        - {x: 403.5, y: -131}
+        - {x: 409.5, y: -131}
+        - {x: 409.5, y: -81}
+        - {x: 543.5, y: -81}
+    - name: dialogoloser_2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1370
+        width: 820
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 263, y: -89}
+        - {x: 263, y: -23}
+        - {x: 279, y: -24}
+        - {x: 315, y: -24}
+        - {x: 342, y: -22}
+        - {x: 357, y: -16}
+        - {x: 362, y: -10}
+        - {x: 362, y: 38}
+        - {x: 364, y: 67}
+        - {x: 373, y: 68}
+        - {x: 389, y: 70}
+        - {x: 409, y: 79}
+        - {x: 410, y: 81}
+        - {x: 410, y: 114}
+        - {x: 403, y: 120}
+        - {x: 374, y: 141}
+        - {x: 369, y: 143}
+        - {x: 360, y: 145}
+        - {x: 361, y: 148}
+        - {x: 347, y: 160}
+        - {x: 332, y: 161}
+        - {x: 273, y: 161}
+        - {x: 264, y: 160}
+        - {x: 261, y: 159}
+        - {x: 255, y: 154}
+        - {x: 243, y: 143}
+        - {x: 241, y: 137}
+        - {x: 236, y: 137}
+        - {x: 220, y: 135}
+        - {x: 205, y: 133}
+        - {x: 202, y: 132}
+        - {x: 188, y: 117}
+        - {x: 188, y: 88}
+        - {x: 190, y: 84}
+        - {x: 197, y: 81}
+        - {x: 226, y: 69}
+        - {x: 243, y: 62}
+        - {x: 243, y: 48}
+        - {x: -410, y: 48}
+        - {x: -410, y: -91}
+        - {x: -382, y: -91}
+        - {x: -382, y: -161}
+        - {x: -376, y: -161}
+        - {x: -342, y: -127}
+        - {x: -307, y: -91}
+        - {x: 261, y: -91}
+    - name: dialogoloser_3
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1313
+        width: 869
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 289.5, y: -83.5}
+        - {x: 291.5, y: -81.5}
+        - {x: 291.5, y: -30.5}
+        - {x: 303.5, y: -31.5}
+        - {x: 339.5, y: -31.5}
+        - {x: 362.5, y: -29.5}
+        - {x: 372.5, y: -27.5}
+        - {x: 380.5, y: -23.5}
+        - {x: 386.5, y: -17.5}
+        - {x: 386.5, y: 30.5}
+        - {x: 385.5, y: 31.5}
+        - {x: 388.5, y: 59.5}
+        - {x: 397.5, y: 60.5}
+        - {x: 413.5, y: 62.5}
+        - {x: 433.5, y: 71.5}
+        - {x: 434.5, y: 73.5}
+        - {x: 434.5, y: 106.5}
+        - {x: 427.5, y: 112.5}
+        - {x: 398.5, y: 133.5}
+        - {x: 393.5, y: 135.5}
+        - {x: 384.5, y: 137.5}
+        - {x: 385.5, y: 140.5}
+        - {x: 371.5, y: 152.5}
+        - {x: 356.5, y: 153.5}
+        - {x: 297.5, y: 153.5}
+        - {x: 288.5, y: 152.5}
+        - {x: 285.5, y: 151.5}
+        - {x: 279.5, y: 146.5}
+        - {x: 267.5, y: 135.5}
+        - {x: 265.5, y: 129.5}
+        - {x: 260.5, y: 129.5}
+        - {x: 244.5, y: 127.5}
+        - {x: 229.5, y: 125.5}
+        - {x: 226.5, y: 124.5}
+        - {x: 212.5, y: 109.5}
+        - {x: 212.5, y: 80.5}
+        - {x: 214.5, y: 76.5}
+        - {x: 221.5, y: 73.5}
+        - {x: 250.5, y: 61.5}
+        - {x: 260.5, y: 57.5}
+        - {x: 264.5, y: 56.5}
+        - {x: -434.5, y: 56.5}
+        - {x: -434.5, y: -83.5}
+        - {x: -398.5, y: -83.5}
+        - {x: -398.5, y: -153.5}
+        - {x: -392.5, y: -153.5}
+        - {x: -358.5, y: -119.5}
+        - {x: -358.5, y: -118.5}
+        - {x: -323.5, y: -83.5}
+    - name: dialogoloser_4
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 883
+        width: 826
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 413, y: 129}
+        - {x: -260, y: 129}
+        - {x: -262, y: 116}
+        - {x: -282, y: 117}
+        - {x: -283, y: 118}
+        - {x: -292, y: 118}
+        - {x: -293, y: 119}
+        - {x: -313, y: 119}
+        - {x: -322, y: 118}
+        - {x: -330, y: 117}
+        - {x: -339, y: 116}
+        - {x: -342, y: 115}
+        - {x: -348, y: 110}
+        - {x: -360, y: 99}
+        - {x: -361, y: 96}
+        - {x: -361, y: 93}
+        - {x: -368, y: 93}
+        - {x: -392, y: 90}
+        - {x: -398, y: 89}
+        - {x: -403, y: 87}
+        - {x: -406, y: 83}
+        - {x: -413, y: 75}
+        - {x: -413, y: 42}
+        - {x: -411, y: 39}
+        - {x: -408, y: 38}
+        - {x: -398, y: 34}
+        - {x: -391, y: 31}
+        - {x: -371, y: 23}
+        - {x: -369, y: 23}
+        - {x: -360, y: 18}
+        - {x: -360, y: -11}
+        - {x: -361, y: -12}
+        - {x: -362, y: -17}
+        - {x: -364, y: -26}
+        - {x: -366, y: -34}
+        - {x: -367, y: -39}
+        - {x: -368, y: -43}
+        - {x: -369, y: -48}
+        - {x: -369, y: -57}
+        - {x: -315, y: -111}
+        - {x: -282, y: -111}
+        - {x: -264, y: -92}
+        - {x: -264, y: -91}
+        - {x: -255, y: -82}
+        - {x: -255, y: -81}
+        - {x: -246, y: -72}
+        - {x: -246, y: -71}
+        - {x: -237, y: -62}
+        - {x: 322, y: -62}
+        - {x: 354, y: -94}
+        - {x: 354, y: -95}
+        - {x: 388, y: -129}
+        - {x: 394, y: -129}
+        - {x: 394, y: -62}
+        - {x: 413, y: -62}
+    - name: dialogoloser_5
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 582
+        width: 424
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 122, y: 38}
+        - {x: 120, y: 40}
+        - {x: 109, y: 41}
+        - {x: 115, y: 46}
+        - {x: 197, y: 128}
+        - {x: 199, y: 129}
+        - {x: 212, y: 143}
+        - {x: 212, y: 161}
+        - {x: 208, y: 167}
+        - {x: 192, y: 180}
+        - {x: 159, y: 213}
+        - {x: 130, y: 241}
+        - {x: 108, y: 262}
+        - {x: 66, y: 302}
+        - {x: 30, y: 337}
+        - {x: 18, y: 347}
+        - {x: -5, y: 347}
+        - {x: -9, y: 344}
+        - {x: -38, y: 321}
+        - {x: -43, y: 316}
+        - {x: -106, y: 267}
+        - {x: -120, y: 255}
+        - {x: -141, y: 239}
+        - {x: -164, y: 220}
+        - {x: -190, y: 199}
+        - {x: -210, y: 184}
+        - {x: -212, y: 181}
+        - {x: -212, y: 164}
+        - {x: -205, y: 156}
+        - {x: -199, y: 149}
+        - {x: -182, y: 131}
+        - {x: -158, y: 106}
+        - {x: -97, y: 40}
+        - {x: -118, y: 40}
+        - {x: -120, y: 38}
+        - {x: -120, y: -58}
+        - {x: -118, y: -60}
+        - {x: -2, y: -60}
+        - {x: -2, y: -347}
+        - {x: 33, y: -347}
+        - {x: 33, y: -60}
+        - {x: 120, y: -60}
+        - {x: 122, y: -58}
+    - name: dialogoloser_6
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 511
+        width: 465
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 227.5, y: -48}
+        - {x: 232.5, y: -31}
+        - {x: 232.5, y: 34}
+        - {x: 222.5, y: 56}
+        - {x: 216.5, y: 67}
+        - {x: 191.5, y: 93}
+        - {x: 179.5, y: 101}
+        - {x: 162.5, y: 108}
+        - {x: 153.5, y: 111}
+        - {x: 82.5, y: 111}
+        - {x: 47.5, y: 95}
+        - {x: 22.5, y: 65}
+        - {x: 23.5, y: 63}
+        - {x: -232.5, y: 63}
+        - {x: -232.5, y: -65}
+        - {x: -109.5, y: -77}
+        - {x: -87.5, y: -101}
+        - {x: -67.5, y: -109}
+        - {x: -46.5, y: -111}
+        - {x: -45.5, y: -111}
+        - {x: -25.5, y: -102}
+        - {x: -13.5, y: -89}
+        - {x: -3.5, y: -65}
+        - {x: 27.5, y: -72}
+        - {x: 60.5, y: -104}
+        - {x: 82.5, y: -111}
+        - {x: 154.5, y: -111}
+        - {x: 172.5, y: -106}
+        - {x: 197.5, y: -90}
+        - {x: 224.5, y: -56}
+    - name: dialogoloser_7
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 227
+        width: 622
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -311, y: 88}
+        - {x: -311, y: -88}
+        - {x: 311, y: -88}
+        - {x: 311, y: 88}
+    - name: dialogoloser_8
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 227
+        width: 622
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -311, y: 88}
+        - {x: -311, y: -88}
+        - {x: 311, y: -88}
+        - {x: 311, y: 88}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
