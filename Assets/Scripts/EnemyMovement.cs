@@ -20,7 +20,7 @@ public class EnemyMovement : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other) {
-		if (other.gameObject.name == "Planet") {
+		if (other.gameObject.name == "Planet" || other.gameObject.name == "Spaceship") {
 			Destroy (gameObject);
 		}
 	}
