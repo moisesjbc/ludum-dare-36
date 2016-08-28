@@ -29,11 +29,10 @@ public class SpaceshipMovement : MonoBehaviour {
 		}
 
 		if (Input.GetKeyDown (KeyCode.Space)) {
-
+			GetComponent<AudioSource>().time = 2.0f;
+			GetComponent<AudioSource>().PlayOneShot(GetComponent<AudioSource>().clip);
 			Debug.Log (Quaternion.LookRotation (transform.up));
 			GameObject bullet = (GameObject)Instantiate (projectileShooter,transform.position,Quaternion.LookRotation(transform.up, Vector3.back));
-
-
 		}
 	}
 }

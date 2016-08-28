@@ -19,6 +19,9 @@ public class TowerShooter : MonoBehaviour {
 		//Debug.Log ("shootCooldown: " + shootCooldown);
 		shootCooldown -= Time.deltaTime;
 		if (shootCooldown < 0.0f) {
+			if( GetComponent<AudioSource>() != null ){
+				GetComponent<AudioSource>().PlayOneShot(GetComponent<AudioSource>().clip);
+			}
 			GameObject bullet = (GameObject)Instantiate (towerBullet, bulletSpawnPoint.transform.position, bulletSpawnPoint.transform.rotation /*Quaternion.LookRotation (transform.up, Vector3.back)*/);
 			Debug.Log ("bullet.transform.position: " + bullet.transform.position);
 			shootCooldown = Random.Range(minShootdownCooldown, maxShootdownCooldown);
