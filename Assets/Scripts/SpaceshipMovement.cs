@@ -28,7 +28,7 @@ public class SpaceshipMovement : MonoBehaviour {
 			transform.RotateAround(Vector3.zero, Vector3.forward, -deltaMovement * Time.deltaTime);
 		}
 
-		if (Input.GetKey (KeyCode.Space)) {
+		if (Input.GetKeyDown (KeyCode.Space)) {
 
 			Debug.Log (Quaternion.LookRotation (transform.up));
 			GameObject bullet = (GameObject)Instantiate (projectileShooter,transform.position,Quaternion.LookRotation(transform.up, Vector3.back));
