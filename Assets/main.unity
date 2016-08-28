@@ -1587,7 +1587,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ENEMY_RESPAWN_TIME: .5
-  DISTANCE_TO_PLANET: 15
+  DISTANCE_TO_PLANET: 10
   enemyPrefab1: {fileID: 154614, guid: a447e6e362cb70344b4bfc4d7769e82e, type: 2}
   enemyPrefab2: {fileID: 154614, guid: af81c556d0fc80f4a99d85c7579149d8, type: 2}
   enemyPrefab3: {fileID: 154614, guid: 619ee9ec8499bf14896ea2eb57eebbed, type: 2}
