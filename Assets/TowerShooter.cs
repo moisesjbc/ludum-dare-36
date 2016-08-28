@@ -4,7 +4,8 @@ using System.Collections;
 public class TowerShooter : MonoBehaviour {
 
 	public GameObject towerBullet;
-	float shootCooldown = 1.0f;
+	public GameObject bulletSpawnPoint;
+	float shootCooldown = 0.25f;
 
 	// Use this for initialization
 	void Start () {
@@ -15,10 +16,10 @@ public class TowerShooter : MonoBehaviour {
 	void Update () {
 		//Debug.Log ("shootCooldown: " + shootCooldown);
 		shootCooldown -= Time.deltaTime;
-		//if (shootCooldown < 0.0f) {
-			GameObject bullet = (GameObject)Instantiate (towerBullet, transform.position, Quaternion.LookRotation (transform.up, Vector3.back));
+		if (shootCooldown < 0.0f) {
+			GameObject bullet = (GameObject)Instantiate (towerBullet, bulletSpawnPoint.transform.position, Quaternion.LookRotation (transform.up, Vector3.back));
 			Debug.Log ("bullet.transform.position: " + bullet.transform.position);
-			shootCooldown = 1.0f;
-		//}
+			shootCooldown = 0.25f;
+		}
 	}
 }

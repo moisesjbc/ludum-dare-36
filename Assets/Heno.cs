@@ -10,7 +10,7 @@ public class Heno : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.position += Vector3.Normalize (transform.forward);
+		transform.position += Vector3.Normalize (transform.forward) * Time.deltaTime;
 		float distance = Vector3.Distance (Vector3.zero, transform.position);
 		if(distance >=50)
 		{
