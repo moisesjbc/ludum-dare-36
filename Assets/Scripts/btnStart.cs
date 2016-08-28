@@ -13,4 +13,9 @@ public class btnStart : MonoBehaviour {
 	{
 		SceneManager.LoadScene ("dialogs");
 	}
+
+	public void Credits()
+	{
+		SceneManager.LoadScene ("creditos");
+	}
 }

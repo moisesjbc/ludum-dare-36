@@ -13,3 +13,5 @@ EditorBuildSettings:
     path: Assets/loserMenu.unity
   - enabled: 1
     path: Assets/dialogs.unity
+  - enabled: 1
+    path: Assets/creditos.unity
