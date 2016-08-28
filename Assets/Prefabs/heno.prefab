@@ -27,7 +27,7 @@ GameObject:
   - 114: {fileID: 11424810}
   - 114: {fileID: 11464762}
   - 54: {fileID: 5450366}
-  - 65: {fileID: 6529612}
+  - 135: {fileID: 13505794}
   m_Layer: 0
   m_Name: heno
   m_TagString: Untagged
@@ -125,7 +125,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 118256}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.18564916, y: 2.10975766, z: 0}
+  m_LocalPosition: {x: 23.8941193, y: 2.1712358, z: 4.19288445}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 495000}
@@ -156,7 +156,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 794ad24ff9164dd40a3067a7835d2202, type: 2}
+  - {fileID: 2100000, guid: 8eacdea14b45a884ba923785cf327549, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -188,24 +188,12 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
-  m_AngularDrag: .0500000007
+  m_AngularDrag: 0
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &6529612
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 118256}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: .100000001, y: .0500000007, z: .100000001}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!95 &9553766
 Animator:
   serializedVersion: 3
@@ -246,6 +234,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!135 &13505794
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118256}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: .0599999987
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
