@@ -23,3 +23,7 @@ Protect the planet from outter-space dangers by rotating your spaceship around t
 
 - Sounds and music have been downloaded from FreeSound.org and other free sources.
 - Skybox taken from package "Skybox Volume 2 (Nebula)": https://www.assetstore.unity3d.com/en/#!/content/3392
+
+## Downloads and online paying
+
+[Amish Paradise entry at ludumdare.com](http://ludumdare.com/compo/ludum-dare-36/?action=preview&uid=57516)
