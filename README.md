@@ -26,4 +26,5 @@ Protect the planet from outter-space dangers by rotating your spaceship around t
 
 ## Downloads and online paying
 
-[Amish Paradise entry at ludumdare.com](http://ludumdare.com/compo/ludum-dare-36/?action=preview&uid=57516)
+* [Play online](http://moisesjbc.github.io/games/amish-paradise/index.html)
+* [Amish Paradise entry at ludumdare.com](http://ludumdare.com/compo/ludum-dare-36/?action=preview&uid=57516)
